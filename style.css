@@ -40,7 +40,7 @@ body {
 
 }
 
-h1 {
+h1, h3 {
     font-family: 'Besley', serif;
     color: #333333;
     font-size: 2.7rem;
@@ -64,7 +64,21 @@ a:hover {
     color: #a76354;
 }
 
-footer {
+.rodape {
     background-color: #CA8A7C;
+    height: 200px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.textoRodape,  .redesSociais {
+    text-align: center;
+    margin: auto;
+}
+
+.redesSociais p  {
+    
+    font-weight: 400;
 }
