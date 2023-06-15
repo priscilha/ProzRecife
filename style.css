@@ -114,5 +114,13 @@ strong {
 
 .redesSociais p {
 
-    font-weight: 400;
+    font-weight: 500;
+   
 }
+
+.menu__lista li:hover{
+    -webkit-transform: scale(1.2);
+	transform: scale(1.2);
+
+}
+
